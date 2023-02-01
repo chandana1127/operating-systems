@@ -1,0 +1,11 @@
+def shortest_job_first(processes):
+    processes.sort(key=lambda x: x[1]) # sort by execution time
+    n = len(processes)
+    waiting_time = 0
+    for i in range(n):
+        waiting_time += processes[i][1]
+        print("Process", processes[i][0], "executed in", processes[i][1], "units of time")
+        print("Waiting time:", waiting_time)
+
+processes = [("P1", 7), ("P2", 4), ("P3", 1), ("P4", 4)]
+shortest_job_first(processes)
