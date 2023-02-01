@@ -1,0 +1,10 @@
+def first_come_first_served(processes):
+    n = len(processes)
+    waiting_time = 0
+    for i in range(n):
+        waiting_time += processes[i][1]
+        print("Process", processes[i][0], "executed in", processes[i][1], "units of time")
+        print("Waiting time:", waiting_time)
+
+processes = [("P1", 7), ("P2", 4), ("P3", 1), ("P4", 4)]
+first_come_first_served(processes)
