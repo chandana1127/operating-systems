@@ -1,0 +1,26 @@
+def round_robin(processes, quantum):
+    n = len(processes)
+    rr_order = []
+    total_time = 0
+    while True:
+        for i in range(n):
+            if processes[i][1] > 0:
+                if processes[i][1] > quantum:
+                    total_time += quantum
+                    processes[i][1] -= quantum
+                else:
+                    total_time = total_time + processes[i][1]
+                    processes[i][1] = 0
+                    rr_order.append((processes[i][0], total_time))
+        finished = True
+        for i in range(n):
+            if processes[i][1] > 0:
+                finished = False
+                break
+        if finished:
+            break
+    return rr_order
+
+processes = [["p1", 10], ["p2", 5], ["p3", 8]]
+quantum = 2
+print(round_robin(processes, quantum))
