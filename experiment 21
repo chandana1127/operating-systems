@@ -1,0 +1,53 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+#define MAX_BLOCKS 100
+#define BLOCK_SIZE 1000
+
+int block[MAX_BLOCKS]; // Memory blocks 
+int allocation[MAX_BLOCKS]; // Track allocation of blocks
+
+// Function to find the block with the worst fit
+int worst_fit(int size)
+{
+    int index = -1, worst_block_size = -1;
+    for (int i = 0; i < MAX_BLOCKS; i++) {
+        if (block[i] >= size && block[i] - size > worst_block_size) {
+            index = i;
+            worst_block_size = block[i] - size;
+        }
+    }
+    return index;
+}
+
+// Function to allocate memory using worst fit
+void allocate_memory(int size)
+{
+    int index = worst_fit(size);
+    if (index != -1) {
+        allocation[index] = 1;
+        block[index] -= size;
+    }
+    else {
+        printf("Memory allocation failed\n");
+    }
+}
+
+int main()
+{
+    // Initialize all blocks to BLOCK_SIZE
+    for (int i = 0; i < MAX_BLOCKS; i++) {
+        block[i] = BLOCK_SIZE;
+    }
+
+    // Allocate memory to process 1
+    allocate_memory(100);
+
+    // Allocate memory to process 2
+    allocate_memory(500);
+
+    // Allocate memory to process 3
+    allocate_memory(200);
+
+    return 0;
+}
