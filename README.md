@@ -88,3 +88,26 @@ experiment 16
 ![Screenshot (39)](https://user-images.githubusercontent.com/113325376/216275923-86ffce66-908c-410b-8531-dc85f86235ae.png)
 
 
+experiment 17
+
+
+![Screenshot (114)](https://user-images.githubusercontent.com/113325376/216624376-929ca46f-0db3-4bf1-8c19-895c437d96fb.png)
+
+
+
+
+experiment 18
+
+
+
+![Screenshot (112)](https://user-images.githubusercontent.com/113325376/216624638-1f1e230d-bbf5-47b0-8670-3b69bace4c47.png)
+
+
+experiment 19
+
+
+
+
+
+
+
