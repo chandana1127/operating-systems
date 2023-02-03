@@ -121,6 +121,24 @@ experiment 21
 experiment 22
 
 
+![Screenshot (119)](https://user-images.githubusercontent.com/113325376/216625871-49cc2769-118b-483a-85ee-846120032c78.png)
+
+
+
+
+experiment 23
+
+
+
+![Screenshot (116)](https://user-images.githubusercontent.com/113325376/216626122-4ed3b5fe-3d54-4a6c-be14-b58af282209e.png)
+
+
+
+experiment 24
+
+
+
+![Screenshot (115)](https://user-images.githubusercontent.com/113325376/216626274-cd01e48d-7140-43fe-9104-088e72cfc268.png)
 
 
 
