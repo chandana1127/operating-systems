@@ -1,0 +1,36 @@
+#include <pthread.h> 
+#include <stdio.h> 
+#include <unistd.h> 
+
+pthread_mutex_t lock; 
+
+void *threadFunction(void *vargp) 
+{ 
+	pthread_mutex_lock(&lock); 
+
+	printf("\nLock acquired by thread\n"); 
+	sleep(3); 
+
+	printf("\nReleasing lock\n"); 
+	pthread_mutex_unlock(&lock); 
+
+	return NULL; 
+} 
+
+int main() 
+{ 
+	pthread_t tid; 
+
+	pthread_mutex_init(&lock, NULL); 
+	pthread_create(&tid, NULL, threadFunction, NULL); 
+
+	sleep(1); 
+
+	pthread_mutex_lock(&lock); 
+	printf("\nLock acquired by main thread\n"); 
+	pthread_mutex_unlock(&lock); 
+
+	pthread_join(tid, NULL); 
+	pthread_mutex_destroy(&lock); 
+	return 0; 
+}
