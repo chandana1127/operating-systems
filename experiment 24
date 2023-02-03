@@ -1,0 +1,34 @@
+
+#include <unistd.h>
+#include <fcntl.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) {
+  int fd;
+
+  
+  fd = open("example.txt", O_CREAT | O_WRONLY, 0644);
+  if (fd == -1) {
+    perror("open");
+    exit(1);
+  }
+
+ 
+  write(fd, "Hello, World!", 13);
+
+   close(fd);
+  fd = open("example.txt", O_RDONLY);
+  if (fd == -1) {
+    perror("open");
+    exit(1);
+  }
+
+  char buf[13];
+  read(fd, buf, 13);
+  printf("%.*s\n", 13, buf);
+  close(fd);
+  unlink("example.txt");
+
+  return 0;
+}
