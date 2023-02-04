@@ -114,10 +114,6 @@ experiment 19
 
 
 
-experiment 20
-
-
-
 experiment 21
 
 
@@ -163,6 +159,115 @@ experiment 26
 
 
 ![image](https://user-images.githubusercontent.com/113325376/216774749-d4448ddb-c7ec-4e86-8556-18171bdb7f8e.png)
+
+
+
+experiment 27
+
+
+
+![Screenshot (83)](https://user-images.githubusercontent.com/113325376/216775745-0c4e622b-59f4-4c80-b4c2-0b0d011af8ed.png)
+
+
+
+
+experiment 28
+
+
+![image](https://user-images.githubusercontent.com/113325376/216774859-d5efe3a8-ea35-46ff-89b1-be16518f853e.png)
+
+
+experiment 29
+
+
+![image](https://user-images.githubusercontent.com/113325376/216775018-2f8d5f78-9022-493d-ad76-747d245bc40b.png)
+
+
+experiment 30 i
+
+
+![image](https://user-images.githubusercontent.com/113325376/216775071-3689dc13-31f4-4ca3-ad69-253f02260d88.png)
+
+
+
+experiment 30 ii
+
+
+![image](https://user-images.githubusercontent.com/113325376/216775100-f3a6d0fb-f9a4-4f9a-bc69-1aaf057b416f.png)
+
+
+
+experiment 30 iii
+
+
+![image](https://user-images.githubusercontent.com/113325376/216775116-b6fd2807-0af3-4b38-acdc-36ea83b0a291.png)
+
+
+experiment 31
+
+
+![image](https://user-images.githubusercontent.com/113325376/216775447-3cda4a19-febe-452a-a4eb-afc9e089221d.png)
+
+
+
+experiment 32
+
+
+![image](https://user-images.githubusercontent.com/113325376/216775141-d3101be3-e20f-44a9-97d1-ae92fce62d5c.png)
+
+
+experiment 33
+
+
+![image](https://user-images.githubusercontent.com/113325376/216775186-4b94d989-d998-4c9f-bd20-9e7901c15cba.png)
+
+
+
+experiment 34
+
+
+
+![image](https://user-images.githubusercontent.com/113325376/216775202-cae523aa-1477-4cc8-89a8-135642c105da.png)
+
+
+experiment 35
+
+
+![image](https://user-images.githubusercontent.com/113325376/216775231-1e4d5f2d-47a4-4dbe-b4b5-ee8d8dccb44c.png)
+
+
+experiment 36
+
+
+![image](https://user-images.githubusercontent.com/113325376/216775257-3434af8b-ef1b-4b1c-bbfb-e62bb9844724.png)
+
+
+
+experiment 37
+
+
+![image](https://user-images.githubusercontent.com/113325376/216775298-5654b1af-f4a0-496b-ace6-5f76495c3f92.png)
+
+
+
+experiment 38
+
+
+
+![image](https://user-images.githubusercontent.com/113325376/216775349-216739e7-e4c1-4aed-b6e8-66b42f10d8ec.png)
+
+
+
+
+experiment 39
+
+
+
+![image](https://user-images.githubusercontent.com/113325376/216775365-86946e24-436b-4484-b212-e4d120c8a5aa.png)
+
+
+
+
 
 
 
