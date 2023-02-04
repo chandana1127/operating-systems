@@ -67,6 +67,10 @@ experiment 12
 ![Screenshot (35)](https://user-images.githubusercontent.com/113325376/216274732-d6200020-cdbf-4ff4-ba00-82f878bc8b24.png)
 
 
+experiment 13
+
+
+
 experiment 14
 
 
@@ -110,6 +114,10 @@ experiment 19
 
 
 
+experiment 20
+
+
+
 experiment 21
 
 
@@ -122,7 +130,6 @@ experiment 22
 
 
 ![Screenshot (119)](https://user-images.githubusercontent.com/113325376/216625871-49cc2769-118b-483a-85ee-846120032c78.png)
-
 
 
 
@@ -142,6 +149,20 @@ experiment 23
 
 
 
+experiment 25
+
+
+
+![Screenshot (82)](https://user-images.githubusercontent.com/113325376/216774586-927598e3-be7b-4745-9294-21eec6492302.png)
+
+
+
+
+experiment 26
+
+
+
+![image](https://user-images.githubusercontent.com/113325376/216774749-d4448ddb-c7ec-4e86-8556-18171bdb7f8e.png)
 
 
 
